@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #FCFCFC;
+  color: #2D2D2D;
+  font-size: 1rem;
+}
+
+/* header{
+  background: #FCFCFC;
+  position: fixed;
+  width: 100%;
+} */
+
+.imageone{
+  background: linear-gradient(rgba(6, 6, 6, 0.5),rgba(0, 0, 0, 0.5)),url('assets/imageOne.png'), no-repeat;
+  transition: transform 0.1s ease-in-out;
+}
+
+.imagetwo{
+  background: linear-gradient(rgba(6, 6, 6, 0.5),rgba(0, 0, 0, 0.5)),url('assets/imageTwo.png'), no-repeat;
+  transition: transform 0.1s ease-in-out;
+}
+
+.imagefour{
+  background: linear-gradient(rgba(6, 6, 6, 0.5),rgba(0, 0, 0, 0.5)),url('assets/imagefour.png'), no-repeat;
+  transition: transform 0.1s ease-in-out;
+}
+
+.imagethree{
+  background: linear-gradient(rgba(6, 6, 6, 0.5),rgba(0, 0, 0, 0.5)),url('assets/imageThree.png'), no-repeat;
+  transition: transform 0.1s ease-in-out;
+}
+
+.imagefive{
+  background: linear-gradient(rgba(6, 6, 6, 0.5),rgba(0, 0, 0, 0.5)),url('assets/imagefive.png'), no-repeat;
+  transition: transform 0.1s ease-in-out;
+}
+
