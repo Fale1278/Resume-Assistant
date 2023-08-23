@@ -1,5 +1,10 @@
 import React from 'react'
-              
+import { Link } from 'react-router-dom'
+
+import BouncingDiv from '../../Components/BouncingDiv'
+import CvTemplate from '../../assets/CvTemplate.svg'
+
+import BuildTemplate from '../../assets/BuildTemplate.svg'
 
 
 
@@ -19,17 +24,31 @@ const HomePage = () => {
             A Resume is a one page summary of your work <br/>experience and background relevant to the job you <br/>are applying to. A CV is a longer academic diary that <br/>includes all your experience, certificates, and <br/>publications.</p>
         </div>
 
-        <div className=' bg-myBlack text-myWhtie w-[43rem] p-[2rem] h-[35rem]'>
+        <div className=' bg-myBlack text-myWhtie w-[43rem] p-[2rem]'>
           <p className=' text-center text-[33px] my-[1rem]'>Choose your Template</p>
           <p className=' text-center text-[20px] '>What are you building?</p>
+
+          <div className=' flex justify-around items-center my-[4rem]'>
+            <div className='mt-[3rem]'>
+              <Link to='/resumePage'>
+                <img src={BuildTemplate} alt="" />
+              </Link>
+            </div>
+
+            <div className=' bg-myWhtie w-[341px] h-[530px] flex justify-between items-center p-[1rem]'>
+              <Link>
+                <img src={CvTemplate} alt="" />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
+      <BouncingDiv />
+
       <div>
         <p className=' px-[5rem] pt-[6rem] text-center font-semibold text-[45px]'>Build A Resume or a Curriculum Vitae</p>
 
-        <div className=' bg-myBlack w-[5rem] p-5 my-[2rem]'>
-          ...
-        </div>
+        <div className=' bg-myBlack w-[5rem] p-8 my-[2rem]' />
 
         <div className=' flex justify-between items-center gap-[2rem] px-[5rem]'>
           <div className=' bg-myBlack p-[2rem] text-myWhtie w-[40rem] h-[17rem]'>
@@ -48,10 +67,10 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className=' bg-myBlack w-[5rem] p-5 my-[2rem] ml-[79.2rem]'>
-          ...
-        </div>
+        <div className=' bg-myBlack w-[5rem] p-8 my-[2rem] ml-[79.2rem]' />
       </div>
+
+      
     </div>
   )
 }

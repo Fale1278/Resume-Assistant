@@ -11,11 +11,11 @@ const Navbar = () => {
         </div>
 
         <nav className='flex justify-between items-center gap-10'>
-          <a className=' text-myBlack text-[.9rem]'>Home</a>
+          <Link to='/' className=' text-myBlack text-[.9rem]'>Home</Link>
           <a className=' text-myBlack text-[.9rem]'>About</a>
         </nav>
         <nav className='flex justify-between items-center gap-10'>
-          <a className=' bg-myBlack text-myWhtie p-[.5rem] rounded-[.3rem] align-middle hover:bg-violet-600 '>Build My Resume</a>
+          <Link to='/buildResume' className=' bg-myBlack text-myWhtie p-[.5rem] rounded-[.3rem] align-middle hover:bg-violet-600 '>Build My Resume</Link>
           <a className='border-2 border-myBlack text-myBlack py-[.5rem] px-[2rem] rounded-[.3rem] align-middle'>Build My CV</a>
         </nav>
       </header>

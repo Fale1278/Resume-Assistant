@@ -48,3 +48,20 @@ body{
   transition: transform 0.1s ease-in-out;
 }
 
+input[type="text"]:focus ~ .input-text{
+  @apply  transform -translate-y-6 -translate-x-1 scale-90;
+  background: #2D2D2D;
+  color: #FCFCFC;
+}
+
+input[type="email"]:focus ~ .input-text{
+  @apply  transform -translate-y-6 -translate-x-1 scale-90;
+  background: #2D2D2D;
+  color: #FCFCFC;
+}
+
+input[type="number"]:focus ~ .input-text{
+  @apply  transform -translate-y-6 -translate-x-1 scale-90;
+  background: #2D2D2D;
+  color: #FCFCFC;
+}
