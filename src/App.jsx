@@ -8,6 +8,9 @@ import Footer from './Components/Footer'
 import HomePage from './Pages/HomePage/HomePage'
 import BuildResume from './Pages/BuildResume/BuildResume'
 import ResumePage from './Pages/ResumePage/ResumePage'
+import BuildResume2 from './Pages/BuildResune2/BuildResume2'
+import BuildResume3 from './Pages/BuildResume3/BuildResume3'
+import BuildResume4 from './Pages/BuildResume4/BuildResume4'
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
           <Route path='/' element={<HomePage />}/> 
           <Route path='/resumePage' element={<ResumePage />}/>
           <Route path='/buildResume' element={<BuildResume />}/>
+          <Route path='/buildResume2' element={<BuildResume2/>}/>
+          <Route path='/buildResume3' element={<BuildResume3/>}/>
+          <Route path='/buildresume4' element={<BuildResume4/>}/>
           
         </Routes>
         
