@@ -11,6 +11,7 @@ import ResumePage from './Pages/ResumePage/ResumePage'
 import BuildResume2 from './Pages/BuildResune2/BuildResume2'
 import BuildResume3 from './Pages/BuildResume3/BuildResume3'
 import BuildResume4 from './Pages/BuildResume4/BuildResume4'
+import BuildResume5 from './Pages/BuildResume5/BuildResume5'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/buildResume2' element={<BuildResume2/>}/>
           <Route path='/buildResume3' element={<BuildResume3/>}/>
           <Route path='/buildresume4' element={<BuildResume4/>}/>
+          <Route path='/buildresume5' element={<BuildResume5/>}/>
           
         </Routes>
         
