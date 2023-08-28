@@ -18,6 +18,22 @@ const BuildResume4 = () => {
                 <span className='text-[15px] text-black text-opacity-80 absolute left-0 top-[.9rem] mx-4 px-2 transition duration-200 input-text'>Mother Tongue </span>
               </label>
             </div>
+
+            <div className='App h-20 bg-black flex justify-center items-center'>
+              <label className='relative'>
+                <input type="text" className='h-[50px] w-[375px] px-6 text-[15px] bg-black border-2 border=white border-opacity-50 rounded-md outline-none focus:border-blue-500 focus:text-white tramsiton duration-200'/>
+
+                <span className='text-[15px] text-black text-opacity-80 absolute left-0 top-[.9rem] mx-4 px-2 transition duration-200 input-text'>Second Language </span>
+              </label>
+            </div>
+
+            <div className='App h-20 bg-black flex justify-center items-center'>
+              <label className='relative'>
+                <input type="text" className='h-[50px] w-[375px] px-6 text-[15px] bg-black border-2 border=white border-opacity-50 rounded-md outline-none focus:border-blue-500 focus:text-white tramsiton duration-200'/>
+
+                <span className='text-[15px] text-black text-opacity-80 absolute left-0 top-[.9rem] mx-4 px-2 transition duration-200 input-text'>Fluency </span>
+              </label>
+            </div>
           </div>
           </div>
           <div className=' my-[3rem] flex justify-end items-center'>
